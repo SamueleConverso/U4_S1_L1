@@ -1,22 +1,22 @@
 ﻿namespace U4_S1_L1
 {
-    internal class Atleta
+    internal class Dipendente
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
         public int Age { get; set; }
 
-        public Atleta(string firstName, string lastName, int age)
+        public Dipendente(string firstName, string lastName, int age)
         {
             FirstName = firstName;
             LastName = lastName;
             Age = age;
-        }   
+        }
 
         public void ShowData()
         {
-            Console.WriteLine("ATLETA - Nome: " + FirstName + " | Cognome: " + LastName + " | Età: " + Age);
+            Console.WriteLine("DIPENDENTE - Nome: " + FirstName + " | Cognome: " + LastName + " | Età: " + Age);
         }
     }
 }
