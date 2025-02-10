@@ -1,5 +1,5 @@
 ﻿namespace U4_S1_L1 {
-    internal class Dipendente {
+    public class Dipendente {
         public string FirstName {
             get; set;
         }

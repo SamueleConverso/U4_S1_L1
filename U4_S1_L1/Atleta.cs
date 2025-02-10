@@ -1,5 +1,5 @@
 ﻿namespace U4_S1_L1 {
-    internal class Atleta {
+    public class Atleta {
         public string FirstName {
             get; set;
         }

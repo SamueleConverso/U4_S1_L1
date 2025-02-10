@@ -1,5 +1,5 @@
 ﻿namespace U4_S1_L1 {
-    internal class Veicolo {
+    public class Veicolo {
         public string Name {
             get; set;
         }

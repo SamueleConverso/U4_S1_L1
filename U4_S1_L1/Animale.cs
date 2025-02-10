@@ -1,5 +1,5 @@
 ﻿namespace U4_S1_L1 {
-    internal class Animale {
+    public class Animale {
         public string Name {
             get; set;
         }
