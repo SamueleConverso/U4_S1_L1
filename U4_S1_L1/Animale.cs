@@ -1,8 +1,12 @@
 ﻿namespace U4_S1_L1 {
     internal class Animale {
-        public string Name { get; set; }
+        public string Name {
+            get; set;
+        }
 
-        public int Age { get; set; }
+        public int Age {
+            get; set;
+        }
 
         public Animale(string name, int age) {
             Name = name;
@@ -14,4 +18,3 @@
         }
     }
 }
-

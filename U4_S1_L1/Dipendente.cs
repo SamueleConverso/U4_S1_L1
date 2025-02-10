@@ -1,9 +1,15 @@
 ﻿namespace U4_S1_L1 {
     internal class Dipendente {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string FirstName {
+            get; set;
+        }
+        public string LastName {
+            get; set;
+        }
 
-        public int Age { get; set; }
+        public int Age {
+            get; set;
+        }
 
         public Dipendente(string firstName, string lastName, int age) {
             FirstName = firstName;
@@ -16,4 +22,3 @@
         }
     }
 }
-
